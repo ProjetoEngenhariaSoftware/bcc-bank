@@ -10,7 +10,7 @@ public class HomeController {
 	@RequestMapping("/")
 	public ModelAndView index() {
 		System.out.println("Acessando a Home!");
-		return new ModelAndView("home");
+		return new ModelAndView("index");
 	}
 
 }

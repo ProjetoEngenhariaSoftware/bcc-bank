@@ -12,9 +12,9 @@
 <html>
 <head>
 
-<link href="<c:url value="/resources/css/bootstrap.min.css" />" rel="stylesheet">
-    <script src="<c:url value="/resources/js/jquery.js" />"></script>
-    <script src="<c:url value="/resources/js/bootstrap.min.js" />"></script>
+<%-- <link href="<c:url value="/resources/css/bootstrap.min.css" />" rel="stylesheet"> --%>
+<%--     <script src="<c:url value="/resources/js/jquery.js" />"></script> --%>
+<%--     <script src="<c:url value="/resources/js/bootstrap.min.js" />"></script> --%>
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Agenda de contatos Spring</title>
@@ -25,6 +25,7 @@
 	<br> Qual ação você deseja realizar?
 	<br>
 	<img src="resources/images/meucore.png" />
+	<img src="resources/img1/profile-avatar.jpg" />
 	<br>
 
 	<form action="adicionaContato.do">
